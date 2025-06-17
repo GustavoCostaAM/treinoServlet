@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.blocoFundo{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: blanchedalmond;
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+}
+form{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+h1{
+    padding: 10px;
+}
