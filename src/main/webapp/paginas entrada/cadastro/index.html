@@ -14,6 +14,13 @@
                 <input type="text" name="nome">
                 <input type="number" name="idade">
                 <input type="email" name="email">
+                <input type="text" name="categoria" list="categorias" required>
+
+                <datalist id="categorias">
+                    <option value="RH"></option>
+                    <option value="Chefe de Area"></option>
+                    <option value="Colaborador"></option>
+                </datalist>
 
                 <button type="submit">Cadastrar</button>
             </form>
